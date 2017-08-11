@@ -7,3 +7,6 @@ body {
 h1 {
   color: #876eb8;
 }
+a:link {
+  text-decoration: none;
+}

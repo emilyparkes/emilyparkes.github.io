@@ -9,12 +9,23 @@
     box-sizing: border-box;
 }
 
+.blog {
+  display: flex;
+}
 
-.banner {
+.post1 {
+  max-width: 460px;
+}
+
+.post2 {
+  max-width: 705px;
+}
+
+/*.banner {
   width: 100%;
   display: block;
   background-image: url(https://www.goodfreephotos.com/albums/united-states/wisconsin/southern-wisconsin/wisconsin-hyde-landscape-of-the-creek.jpg);
-}
+}*/
 
 body {
   margin:0;

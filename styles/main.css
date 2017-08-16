@@ -1,3 +1,16 @@
+header h1 {
+	background: transparent url(http://csszengarden.com/001/h1.gif) no-repeat top left;
+	margin-top: 10px;
+	display: block;
+	width: 219px;
+	height: 87px;
+	float: left;
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+  
 body {
   font-family: sans-serif;
   background-color: #c2afe7;

@@ -1,16 +1,9 @@
-h1 {
-	background: transparent  no-repeat top left;
-	margin-top: 10px;
-	display: block;
-	width: 219px;
-	height: 87px;
-	float: left;
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-
+.header-site {
+   background-color: #000000;
+   background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0e/Terragen_render.jpg);
+   background-position: 100% 100%;
+   background-repeat: no-repeat;
+}
 body {
   font-family: sans-serif;
   background-color: #c2afe7;

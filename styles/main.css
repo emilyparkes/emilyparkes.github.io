@@ -47,13 +47,13 @@ div.blog {
   display: flex;
 }
 
-h2.post1 {
+h2.post.1 {
   margin-right: 0%;
   width: 29%;
   margin-left: 15%;
 }
 
-h2.post2 {
+h2.post.2 {
   margin-left: 15%;
   width: 29%;
   margin-right: 15%;

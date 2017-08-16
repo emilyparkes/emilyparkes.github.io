@@ -9,33 +9,6 @@
     box-sizing: border-box;
 }
 
-.blog {
-  display: flex;
-}
-
-.post1 {
-  margin-right: 0%;
-  width: 29%;
-  margin-left: 15%;
-}
-
-.post2 {
-  margin-left: 15%;
-  width: 29%;
-  margin-right: 15%;
-}
-
-.banner {
-  width: 100%;
-  display: block;
-  background-image: url(https://www.goodfreephotos.com/albums/united-states/wisconsin/southern-wisconsin/wisconsin-hyde-landscape-of-the-creek.jpg);
-  margin-top: 0px;
-  margin-bottom: 10px;
-  padding-top: 25px;
-  padding-bottom: 30px;
-
-}
-
 body {
   margin:0;
   padding: 0;
@@ -59,6 +32,33 @@ h2 {
 a {
   text-decoration: none;
 }
+
+.banner {
+  width: 100%;
+  display: block;
+  background-image: url(https://www.goodfreephotos.com/albums/united-states/wisconsin/southern-wisconsin/wisconsin-hyde-landscape-of-the-creek.jpg);
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+.blog {
+  display: flex;
+}
+
+.post1 {
+  margin-right: 0%;
+  width: 29%;
+  margin-left: 15%;
+}
+
+.post2 {
+  margin-left: 15%;
+  width: 29%;
+  margin-right: 15%;
+}
+
 
 
 /* this is a comment*/

@@ -14,7 +14,6 @@ body {
   padding: 0;
   font-family: sans-serif, arial;
   background-color: #54a3ba;
-  text-align: center;
 }
 
 h1,h2 {
@@ -37,24 +36,35 @@ header.banner {
   margin-bottom: 10px;
   padding-top: 25px;
   padding-bottom: 30px;
+  text-align:center;
 }
 
 div.blog {
   display: flex;
+  color: #ffffff;
+  text-align:center;
 }
 
 h2.post.1 {
-  margin-right: 0%;
-  width: 29%;
-  margin-left: 15%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 h2.post.2 {
-  margin-left: 15%;
-  width: 29%;
-  margin-right: 15%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
+h2.post.3 {
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
 
 
 /* this is a comment*/

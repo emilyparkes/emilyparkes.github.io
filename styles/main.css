@@ -2,12 +2,11 @@
    outline: 1px solid red !important;
 }*/
 
-* {
-    -webkit-box-sizing: border-box;
+/*    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-}
+}*/
 
 body {
   margin:0;
@@ -16,9 +15,7 @@ body {
   background-color: #54a3ba;
 }
 
-h1,h2 {
-  color: #ffffff;
-}
+
 
 /*h3 {
   color: #876eb8;
@@ -36,13 +33,21 @@ header.banner {
   margin-bottom: 10px;
   padding-top: 25px;
   padding-bottom: 30px;
-  text-align:center;
+  text-align: center;
+}
+
+header.title {
+  color: #ffffff;
 }
 
 div.blog {
   display: flex;
   color: #ffffff;
   text-align:center;
+}
+
+h2 {
+  color: #ffffff;
 }
 
 h2.post.1 {

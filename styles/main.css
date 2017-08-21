@@ -41,9 +41,8 @@ header.title {
 }
 
 div.blog {
-  display: flex;
   text-align:center;
-  max-width: 100%;
+  max-width: 90%;
 }
 
 h2 {

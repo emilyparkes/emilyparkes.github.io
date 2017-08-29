@@ -9,7 +9,11 @@
     box-sizing: border-box;
 }
 
-.grid {
+/* For devices larger than 400px */
+@media only screen (max-width: 400px)
+{}
+
+.main {
     margin: 0 auto;
     max-width: 1200px;
     width: 100%;
@@ -71,24 +75,9 @@
 
 
 
-/* For devices larger than 400px */
-@media (min-width: 400px) {
-  .container {
-    width: 85%;
-    padding: 0; }
-}
 
 /* For devices larger than 550px */
-@media (min-width: 550px) {
-  .container {
-    width: 80%; }
-  .column,
-  .columns {
-    margin-left: 4%; }
-  .column:first-child,
-  .columns:first-child {
-    margin-left: 0; }
-
+@media (min-width: 550px) {}
 
 /* Larger than tablet */
 @media (min-width: 750px) {}

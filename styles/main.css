@@ -8,22 +8,18 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
+.row {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+}
 
-/* For devices larger than 400px */
-@media only screen (max-width: 400px)
-{}
-
-.main {
+ .main {
     margin: 0 auto;
     max-width: 1200px;
     width: 100%;
-}
+  }
 
-.row {
-    width: 100%;
-    margin-bottom: 20px;
-    display: flex;
-}
 
 .col-1 {
     width: 8.33%;
@@ -73,16 +69,27 @@
     width: 100%;
 }
 
+.blogpost1, .blogpost2 {
+  display: inline-flex;
+}
 
+/* For devices larger than 400px */
+@media only screen and (min-width: 400px){
+   .blogpost1 {
+     width:50%
+   }
+   .blogpost2 {
+     width:50%
+   }
+}
 
-
-/* For devices larger than 550px */
+/* For devices larger than Phablet */
 @media (min-width: 550px) {}
 
-/* Larger than tablet */
+/* Larger than Tablet */
 @media (min-width: 750px) {}
 
-/* Larger than desktop */
+/* Larger than Desktop */
 @media (min-width: 1000px) {}
 
 /* Larger than Desktop HD */

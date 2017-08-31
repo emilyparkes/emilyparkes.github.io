@@ -18,11 +18,18 @@
 
 header {
   text-align: center;
+  margin: 0;
+  padding-bottom: 1%
 }
 
- img.me.center {
-   display: block;
-   margin: auto;
+ img {
+   margin: 0;
+   padding: 1.6%;
+ }
+
+ h1 {
+   margin: 0.5%;
+   padding: 1%
  }
 
 .row {

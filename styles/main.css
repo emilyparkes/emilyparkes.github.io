@@ -23,14 +23,22 @@ header {
   padding-bottom: 1%
 }
 
+header > h5 {
+  color: #7c8587;
+  margin: 1%;
+  margin-bottom: 2%;
+  padding: 1%
+}
+
  img {
    margin: 1%;
    padding: 1.6%;
  }
 
- h1 {
+ h1,h2,h3,h4,h5,h6 {
+   text-align: center;
    color: #7c8587;
-   margin: 0.5%;
+   margin: 1%;
    padding: 1%
  }
 
@@ -41,6 +49,9 @@ header {
   flex-wrap: wrap;
 }
 
+::after {
+  content: none;
+}
 .blogpost1, .blogpost2 {
 display: inline-flex;
 }
@@ -50,12 +61,12 @@ display: inline-flex;
    color: #7c8587;
    list-style: none;
    text-align: center;
-   padding: 20px 0 20px 0;
+   padding: 1%;
  }
 
  .nav > li {
    display: inline-block;
-   padding-right: 50px
+   padding-right: 2%;
  }
 
  .nav > li > a {

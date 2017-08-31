@@ -1,20 +1,20 @@
 * {
-    border: 1px solid red !important;
+  border: 1px solid red !important;
 }
 
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 
- body {
-   margin: 0;
-   padding: 0;
-   font-family: sans-serif;
- }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
 
 header {
   text-align: center;
@@ -30,17 +30,22 @@ header > h5 {
   padding: 1%
 }
 
- img {
-   margin: 1%;
-   padding: 1.6%;
- }
+img {
+  margin: 1%;
+  padding: 1.6%;
+}
 
- h1,h2,h3,h4,h5,h6 {
-   text-align: center;
-   color: #7c8587;
-   margin: 1%;
-   padding: 1%
- }
+h1,h2,h3,h4,h5,h6 {
+  text-align: center;
+  color: #7c8587;
+  margin: 1%;
+  padding: 1%
+}
+
+a {
+  text-align: center;
+  color: #7c8587;
+}
 
 .row {
   width: 100%;
@@ -49,61 +54,66 @@ header > h5 {
   flex-wrap: wrap;
 }
 
-::after {
-  content: none;
-}
-.blogpost1, .blogpost2 {
-display: inline-flex;
+.blogpost {
+  display: inline-flex;
+  padding: 1%:
 }
 
- .nav {
-   background-color: #c5d3d6;
-   color: #7c8587;
-   list-style: none;
-   text-align: center;
-   padding: 1%;
- }
+.nav {
+  background-color: #c5d3d6;
+  color: #7c8587;
+  list-style: none;
+  text-align: center;
+  padding: 1%;
+}
 
- .nav > li {
-   display: inline-block;
-   padding-right: 2%;
- }
+.nav > li {
+  display: inline-block;
+  padding-right: 2%;
+}
 
- .nav > li > a {
-   text-decoration: none;
-   color: white;
+.nav > li > a {
+  text-decoration: none;
+  color: #7c8587;
 
- }
+}
 
- .nav > li > a:hover {
-   color: white;
- }
+.nav > li > a:hover {
+  color: #a8b4b7;
+}
 
- .main {
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
-  }
+.main {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
 
+.main > a {
+  text-decoration: none;
+  color: #7c8587;
+}
 
-  .one.column,
-  .one.columns                    { width: 4.66666666667%; }
-  .two.columns                    { width: 13.3333333333%; }
-  .three.columns                  { width: 22%;            }
-  .four.columns                   { width: 30.6666666667%; }
-  .five.columns                   { width: 39.3333333333%; }
-  .six.columns                    { width: 48%;            }
-  .seven.columns                  { width: 56.6666666667%; }
-  .eight.columns                  { width: 65.3333333333%; }
-  .nine.columns                   { width: 74.0%;          }
-  .ten.columns                    { width: 82.6666666667%; }
-  .eleven.columns                 { width: 91.3333333333%; }
-  .twelve.columns                 { width: 100%; margin-left: 0; }
+.main > a:hover {
+  color: #a8b4b7;
+}
+.one.column,
+.one.columns                    { width: 4.66666666667%; }
+.two.columns                    { width: 13.3333333333%; }
+.three.columns                  { width: 22%;            }
+.four.columns                   { width: 30.6666666667%; }
+.five.columns                   { width: 39.3333333333%; }
+.six.columns                    { width: 48%;            }
+.seven.columns                  { width: 56.6666666667%; }
+.eight.columns                  { width: 65.3333333333%; }
+.nine.columns                   { width: 74.0%;          }
+.ten.columns                    { width: 82.6666666667%; }
+.eleven.columns                 { width: 91.3333333333%; }
+.twelve.columns                 { width: 100%; margin-left: 0; }
 
-  .one-third.column               { width: 30.6666666667%; }
-  .two-thirds.column              { width: 65.3333333333%; }
+.one-third.column               { width: 30.6666666667%; }
+.two-thirds.column              { width: 65.3333333333%; }
 
-  .one-half.column                { width: 48%; }
+.one-half.column                { width: 48%; }
 
 
 
@@ -117,11 +127,11 @@ display: inline-flex;
 /* For devices larger than Phablet */
 @media (min-width: 550px) {}
 
-/* Larger than Tablet */
-@media (min-width: 750px) {}
+  /* Larger than Tablet */
+  @media (min-width: 750px) {}
 
-/* Larger than Desktop */
-@media (min-width: 1000px) {}
+    /* Larger than Desktop */
+    @media (min-width: 1000px) {}
 
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+      /* Larger than Desktop HD */
+      @media (min-width: 1200px) {}

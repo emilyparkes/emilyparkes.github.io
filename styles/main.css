@@ -23,7 +23,7 @@ header {
 }
 
  img {
-   margin: 0;
+   margin: 1%;
    padding: 1.6%;
  }
 
@@ -43,7 +43,7 @@ header {
 display: inline-flex;
 }
 
- /*.nav {
+ .nav {
    background-color: black;
    color: white;
    list-style: none;
@@ -64,7 +64,7 @@ display: inline-flex;
 
  .nav > li > a:hover {
    color: white;
- } */
+ }
 
  .main {
     margin: 0 auto;

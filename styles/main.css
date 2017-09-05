@@ -57,12 +57,17 @@ a {
   margin-bottom: 20px;
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
 }
 
 .blogpost {
   display: inline-flex;
   padding: 1%:
+}
+
+.bigpost {
+  text-align: center;
+  color: #7c8587;
+  text-decoration: none;
 }
 
 .nav {

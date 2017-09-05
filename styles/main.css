@@ -33,7 +33,10 @@ header > h5 {
 img {
   margin: 1%;
   padding: 1.6%;
-  border-radius: 50%
+}
+
+.img-circle {
+  border-radius: 30%;
 }
 
 h1,h2,h3,h4,h5,h6 {

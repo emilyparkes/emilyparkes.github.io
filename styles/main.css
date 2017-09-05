@@ -65,9 +65,10 @@ a {
 }
 
 .bigpost {
-  text-align: center;
   color: #7c8587;
-  text-decoration: none;
+  text-align: center;
+  padding: 1%;
+  margin: 0;
 }
 
 .nav {
@@ -137,7 +138,18 @@ a {
 }
 
 /* For devices larger than Phablet */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+  header {
+    text-align: center;
+    background-color: #c5d3d6;
+    margin: 0;
+    padding-bottom: 1%
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 
   /* Larger than Tablet */
   @media (min-width: 750px) {}

@@ -35,9 +35,8 @@ img {
   padding: 1.6%;
 }
 
-.img-circle {
+img.img-circle {
   border-radius: 30%;
-
 }
 
 h1,h2,h3,h4,h5,h6 {

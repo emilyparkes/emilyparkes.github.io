@@ -1,13 +1,10 @@
-/* {
-  border: 1px solid red !important;
-}
 
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-}*/
+}
 
 
 body {
@@ -68,7 +65,14 @@ a {
   padding: 1%:
 }
 
-.bigpost {
+.post-title {
+  color: #7c8587;
+  text-align: center;
+  padding: 1%;
+  margin: 0;
+}
+
+.post-content {
   color: #7c8587;
   text-align: center;
   padding: 1%;

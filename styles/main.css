@@ -1,4 +1,4 @@
-* {
+/* {
   border: 1px solid red !important;
 }
 
@@ -7,7 +7,7 @@
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-}
+}*/
 
 
 body {
@@ -42,8 +42,12 @@ img.img-circle {
 h1,h2,h3,h4,h5,h6 {
   text-align: center;
   color: #7c8587;
-  margin: 1%;
-  padding: 1%
+  margin: 0;
+  padding: 1%;
+}
+
+h5.date {
+  margin-bottom: 1%;
 }
 
 a {
@@ -143,9 +147,7 @@ a {
     text-align: center;
     background-color: #c5d3d6;
     margin: 0;
-    padding-bottom: 1%
-    width: 100%;
-    margin-bottom: 20px;
+    padding-bottom: 1%;
     display: flex;
     flex-wrap: wrap;
   }
